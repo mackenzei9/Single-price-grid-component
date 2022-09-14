@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(204deg, 43%, 93%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .box {
+  width: 700px;
+  height: 525px;
+  background-color: #fff;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: -6px 9px 20px 13px rgba(0, 0, 0, 0.2);
+}
+.container .box .top {
+  width: 100%;
+  height: 50%;
+  padding: 3.5rem 2.7rem;
+}
+.container .box .top h1 {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: hsl(179deg, 62%, 43%);
+  padding-bottom: 1.5rem;
+}
+.container .box .top h4 {
+  font-size: 1.2rem;
+  color: hsl(71deg, 73%, 54%);
+  padding-bottom: 0.5rem;
+}
+.container .box .top .dTop {
+  color: hsl(218deg, 22%, 67%);
+  line-height: 2rem;
+}
+.container .box .top .dTop span {
+  display: block;
+}
+.container .box .bottom {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  color: #fff;
+}
+.container .box .bottom h4 {
+  font-size: 1.2rem;
+  margin-bottom: 1.1rem;
+}
+.container .box .bottom .left {
+  width: 50%;
+  background-color: hsl(179deg, 62%, 43%);
+  padding: 2.4rem 2.7rem;
+}
+.container .box .bottom .left .price {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.6rem;
+}
+.container .box .bottom .left .price .real {
+  font-size: 2.2rem;
+  font-weight: bolder;
+  margin-right: 1rem;
+}
+.container .box .bottom .left .price .time {
+  opacity: 0.5;
+}
+.container .box .bottom .left .button {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.9rem 5.5rem;
+  margin-top: 2.1rem;
+  background-color: hsl(71deg, 73%, 54%);
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+.container .box .bottom .left .button:hover {
+  background-color: hsl(158deg, 36%, 16%);
+}
+.container .box .bottom .right {
+  width: 50%;
+  background-color: hsl(179deg, 63%, 46%);
+  padding: 2.4rem 2.7rem;
+}
+.container .box .bottom .dRight {
+  line-height: 1.4rem;
+  font-weight: 400;
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+.container .footer {
+  position: absolute;
+  bottom: 20px;
+}
+
+@media (max-width: 450px) {
+  .container .box {
+    width: 80%;
+    height: unset;
+    display: flex;
+    flex-direction: column;
+  }
+  .container .box .top {
+    width: 100%;
+    height: unset;
+    padding: 1.8rem 1.7rem;
+  }
+  .container .box .top h1 {
+    font-size: 1.3rem;
+  }
+  .container .box .top h4 {
+    font-size: 0.9rem;
+  }
+  .container .box .top .dTop {
+    line-height: 1.5rem;
+  }
+  .container .box .top .dTop span {
+    display: inline;
+    font-size: 0.9rem;
+  }
+  .container .box .bottom {
+    width: 100%;
+    height: unset;
+    display: flex;
+    flex-direction: column;
+  }
+  .container .box .bottom .left {
+    width: 100%;
+    height: unset;
+    padding: 1.8rem 1.7rem;
+  }
+  .container .box .bottom .left h4 {
+    font-size: 1.2rem;
+  }
+  .container .box .bottom .left .dLeft {
+    font-size: 0.9rem;
+  }
+  .container .box .bottom .left .button {
+    padding: 0.9rem 4.8rem;
+    margin-top: 1.2rem;
+  }
+  .container .box .bottom .right {
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem 1.7rem;
+  }
+  .container .box .bottom .right h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.9rem;
+  }
+  .container .box .bottom .right .dRight {
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+  }
+  .container .footer p {
+    font-size: 0.8rem;
+  }
+}/*# sourceMappingURL=styles.css.map */
